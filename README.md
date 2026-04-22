@@ -4,7 +4,7 @@ Console-based C#  application with SQLite database.
 
 ---
 
-## 🚀 How to Run (Visual Studio / VS Code)
+## How to Run (Visual Studio / VS Code)
 
 ### Step 1 — Open the project
 ```
@@ -17,11 +17,11 @@ dotnet run
 ```
 Or press **F5** in Visual Studio.
 
-> ✅ The `Data/` folder and `shopping.db` are created **automatically** on first run.
+>  The `Data/` folder and `shopping.db` are created **automatically** on first run.
 
 ---
 
-## 🔑 Default Login
+## Default Login
 
 | Role  | Email             | Password  |
 |-------|-------------------|-----------|
@@ -29,7 +29,7 @@ Or press **F5** in Visual Studio.
 
 ---
 
-## 👤 Features
+##  Features
 
 ### Admin
 - View / Add / Update / Delete Products
@@ -51,7 +51,7 @@ Or press **F5** in Visual Studio.
 
 ---
 
-## 🗄️ Database Tables
+##  Database Tables
 
 | Table       | Description                       |
 |-------------|-----------------------------------|
@@ -65,7 +65,7 @@ Or press **F5** in Visual Studio.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ShoppingSystem/
@@ -101,7 +101,7 @@ ShoppingSystem/
 
 ---
 
-## 🐛 Fix: SQLite Error 14
+## Fix: SQLite Error 14
 
 If you see `SQLite Error 14: unable to open database file`, it means the
 `Data/` folder did not exist. This version fixes it by calling
@@ -109,7 +109,7 @@ If you see `SQLite Error 14: unable to open database file`, it means the
 
 ---
 
-## 🐳 Docker
+##  Docker
 
 ```bash
 docker build -t shopping-system .
